@@ -13,69 +13,23 @@ t.fillcolor("#CC66FF")
 
 t.hideturtle()
 
-t.begin_fill()
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
+for i in range(4):
 
-t.end_fill()
+    t.begin_fill()
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
 
-t.penup()
-t.forward(10)
-t.pendown()
+    t.end_fill()
 
-t.color("#99E64C")
-t.fillcolor("#CC66FF")
+    t.penup()
+    t.forward(10)
+    t.pendown()
 
-t.begin_fill()
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
 
-t.end_fill()
-
-t.penup()
-t.forward(10)
-t.pendown()
-
-t.color("#99E64C")
-t.fillcolor("#CC66FF")
-
-t.begin_fill()
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-
-t.end_fill()
-
-t.penup()
-t.forward(10)
-t.pendown()
-
-t.color("#99E64C")
-t.fillcolor("#CC66FF")
-
-t.begin_fill()
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-
-t.end_fill()
 
 turtle.done()
